@@ -30,7 +30,7 @@ body {}
         padding: 0;
         margin: auto;
         position: relative !important;
-        z-index: -1 !important;
+        z-index: 1 !important;
         margin-top: 5px !important;
     }
 
