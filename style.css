@@ -29,27 +29,57 @@ body {}
         left: 0 !important;
         padding: 0;
         margin: auto;
+        position: relative !important;
+        z-index: -1 !important;
+        margin-top: 5px !important;
+    }
 
+    .contact-form {
+        padding: 30px 25px !important;
+        border-radius: 10px !important;
+        max-width: 335px !important;
+        margin-inline: 8px !important;
+        background-color: #625e5e45 !important;
+    }
+
+    .float-button {
+        margin-top: 10px !important;
+    }
+
+    .floating-call {
+        font-size: 22px !important;
+        width: 40px !important;
+        height: 40px !important;
+    }
+
+    .floating-insta {
+        font-size: 22px !important;
+        width: 40px !important;
+        height: 40px !important;
+    }
+
+    .floating-whatsapp {
+        font-size: 22px !important;
+        width: 40px !important;
+        height: 40px !important;
+    }
+
+    #toTopBtn {
+
+        padding: 17px !important;
     }
 
     .fa-bars:before {
-        color: white;
+        color: black;
     }
 
     .navbar-toggler {
         outline: none !important;
     }
 
-    .form-control {
-        margin-inline: 22px !important;
-        width: 50% !important;
-    }
-
-    .form {
-        position: relative !important;
-        z-index: -1 !important;
-
-        margin-top: 5px !important;
+    .service-section {
+        
+        margin-top: 30px;
     }
 
     .text1 {
@@ -193,6 +223,125 @@ body {}
 
 /*---------NAVBAR-END-----*/
 
+/* -----contact form-------- */
+
+.contact-form {
+    background-color: rgb(255, 255, 255);
+    max-width: 335px;
+    padding: 30px 25px;
+    border-radius: 0px 60px;
+}
+
+.contact-form .title {
+    text-align: center;
+    font-size: 22px;
+    width: 65%;
+    color: white;
+    background-color: #86bb46;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto auto 26px;
+    border-radius: 50px;
+    font-family: Asap, sans-serif;
+}
+
+.contact-form .submit-button-wrapper input {
+    background-color: #86bb46;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    border-radius: 50px;
+    padding: 10px 38px;
+    font-family: Asap, sans-serif;
+}
+
+::placeholder {
+    color: rgba(0, 0, 0, 0.747) !important;
+    opacity: 1;
+    /* Firefox */
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: black;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: black;
+}
+
+.contact-form textarea {
+    resize: none;
+}
+
+.contact-form .form-input,
+.form-text-area {
+    background-color: #f0f4f5;
+    height: 42px;
+    padding-left: 16px;
+}
+
+.contact-form .form-text-area {
+    background-color: #f0f4f5;
+    height: 100PX;
+    padding-left: 16px;
+}
+
+.contact-form .form-control::placeholder {
+    color: #aeb4b9;
+    font-weight: 500;
+    opacity: 1;
+}
+
+.contact-form .form-control:-ms-input-placeholder {
+    color: #aeb4b9;
+    font-weight: 500;
+}
+
+.contact-form .form-control::-ms-input-placeholder {
+    color: #aeb4b9;
+    font-weight: 500;
+}
+
+.contact-form .form-control:focus {
+    border-color: #86bb46;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.07), 0 0 8px #86bb46;
+}
+
+.contact-form .description {
+    color: #aeb4b9;
+    font-size: 14px;
+    text-align: center;
+}
+
+.contact-form .submit-button-wrapper {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----contact form-------- */
 
 .carousel-caption {
     top: 50%;
@@ -727,7 +876,7 @@ footer {
 
 /*-----------------back-to-top-button-end--------------------*/
 
- 
+
 
 
 /* -------Key features---------- */
