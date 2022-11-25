@@ -31,7 +31,7 @@
 <body>
     <!--WHATSAPP AND CALL AND INSTA FLOATING ICONS-->
 
-    <a href="https://api.whatsapp.com/send?phone=8302573979&text=Hello%21%20." class="floating-whatsapp"
+    <a href="https://api.whatsapp.com/send?phone=918302573979&text=Hello%21%20." class="floating-whatsapp"
         target="_blank">
         <i class="fa fa-whatsapp float-button"></i>
     </a>
@@ -166,7 +166,7 @@
         <div class="row">
             <div class="col-auto col-sm-12  form mt-5 ">
                 <form class="contact-form" action="mail.php" method="POST" onsubmit="return validateForm()">
-                    <h5 class="title">Contact Us</h5>
+                    <h5 class="title" id="contact_form">Contact Us</h5>
 
                     <div class="d-flex">
                         <input type="text" class="form-control rounded border-white mb-3 form-input" id="name" placeholder="Name" required="" style="margin-right: 8px;">
@@ -509,7 +509,7 @@
                         This helps ensure quality, schedule and that we’re all working toward same goal </p>
                 </div>
                 <div class="col-md-4 col-sm-12 text-center">
-                    <button class="get-in-touch-button">GET IN TOUCH</button>
+                    <a href="#contact_form"><button class="get-in-touch-button">GET IN TOUCH</button></a>
                 </div>
             </div>
         </div>
@@ -547,11 +547,11 @@
                         <h2 class="widget-title">Company</h2>
                         <div class="menu-company-container">
                             <ul class="footer-menu list-unstyled">
-                                <li class="menu-item"> <a href="#about_section">About</a>
-                                <li class="menu-item"> <a href="#">Company</a> </li>
-                                <li class="menu-item"> <a href="#">Press &amp; Blog</a> </li>
-                                <li class="menu-item"> <a href="#">Privacy Policy</a> </li>
-                                <li class="menu-item"> <a href="#">Faq</a>
+                                <li class="menu-item"> <a href="#">HOME</a></li>
+                                <li class="menu-item"> <a href="#service_section">SERVICES</a> </li>
+                                <li class="menu-item"> <a href="#project_section">PROJECTS</a> </li>
+                                <li class="menu-item"> <a href="#about_section">ABOUT US</a> </li>
+                                <li class="menu-item"> <a href="#contact_section">CONTACT US</a>
                                 </li>
                             </ul>
                         </div>
@@ -565,17 +565,13 @@
                     <ul class="footer-menu social-links list-unstyled">
                         <li class="py-1"><a class="" href="#"><i class="fa fa-facebook" aria-hidden="true"></i><span
                                     class="pl-3">Facebook</span></a></li>
-                        <li class="py-1"><a class="" href="#"><i class="fa fa-twitter" aria-hidden="true"></i><span
-                                    class="pl-3">Twitter</span></a>
-                        </li>
+                        
                         <li class="py-1"><a class=""
                                 href="https://www.instagram.com/soltech.energy/?igshid=YmMyMTA2M2Y%3D"><i
                                     class="fa fa-instagram" aria-hidden="true"></i><span
                                     class="pl-3">Instagram</span></a>
                         </li>
-                        <li class="py-1"><a class="" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i><span
-                                    class="pl-3">Linkedin</span></a>
-                        </li>
+                       
                     </ul>
                 </div>
             </div>
