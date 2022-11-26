@@ -103,10 +103,10 @@ body {}
     }
 
 
-    .zoom {
-        margin-bottom: 10px !important;
+     .card
+    {
+        margin-bottom: 15px;
     }
-
     .number-element-title {
         font-size: 25px !important;
         line-height: 35px !important;
