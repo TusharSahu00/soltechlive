@@ -5,7 +5,7 @@ $surname = $_POST['surname'];
 $email = $_POST['email'];
 $phone = $_POST['phone'];
 $text = $_POST['text'];
-$to = "tusharsahu002@gmail.com";
+$to = "sahutushar538@gmail.com";
 $subject = "Mail From website";
 
 
@@ -24,7 +24,7 @@ $message .= "</body></html>";
 //headers..
 $headers  = 'MIME-Version: 1.0' . "\r\n";
 $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-$headers = 'From: info@cljaipur.in'."\r\n" .
+$headers = 'From: info@indiasinvitation.in'."\r\n" .
 $headers .= 'Cc: digiconnectonline@gmail.com' . "\r\n";
 
 
@@ -42,10 +42,10 @@ if($email!=NULL){
 
 else { ?>
     <script language="javascript" type="text/javascript">
-      alert('Message failed. Please, send an email to jaipur@careerlauncher.com');
+      alert('Message failed. Please, send an email to digiconnectonline@gmail.com');
     </script>
     <?php
 }
-header('Location: index.html');
+header("Location:thankyou.html");
 ?>
 
